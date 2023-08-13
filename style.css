@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+  background-color: rgb(19, 17, 17);
+  
+    color: white;
+    position: relative;
+}
+.form{
+    width: 500px;
+    height: 600px;
+    border: 1px solid rgba(248, 243, 243, 0.04);
+    background: linear-gradient(45deg rgb(196, 194, 194),black);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    position: relative;
+    top: 70px;
+    left: 500px;
+    text-align: center;
+   
+    
+    /* bottom: 50px; */
+}
+.circle1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 400px;
+    background-color: red;
+   
+    
+}
+.circle2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(5, 20, 241);
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 550px;
+    left: 925px;
+}
+p{
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    margin: 30px 0 20px;
+    color: rgb(8, 8, 105);
+    
+    
+    
+}
+.name{
+    margin: 100px 0 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+}
+#name{
+    font-size: 20px;
+}
+#name::placeholder{
+    font-size: 12px;
+    vertical-align: middle;
+    color: black ; 
+    
+    opacity: 0.6;
+}
+
+.password{
+    margin: 75px 0 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#password{
+    font-size: 20px;
+}
+#password::placeholder{
+    font-size: 12px;
+    vertical-align: middle;
+    color: black ; 
+    opacity: 0.6;
+    background-color: rgb(255, 253, 253);
+}
+.submit{
+    display: block;
+    font-size: 20px;
+    margin: 50px;
+    /* background-color:rgb(0, 0, 0) ;
+    color: rgb(8, 70, 184) ; */
+    position: absolute;
+    left: 200px;
+   
+}
+
+button{
+    color: blue;
+    background-color:black ;
+}
+.submit:hover{
+    color: rgb(255, 22, 22);
+    
+}
+a{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+   position: absolute;
+   top: 500px;
+   left: 215px;
+  
+}
